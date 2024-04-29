@@ -1,0 +1,117 @@
+@media screen and (max-width: 768px) {
+    nav a {
+        display: block;
+        padding: 10px;
+        text-decoration: none;
+        text-align: center;
+        background-color: #2c2929;
+        color: white;
+        border-top: 2px solid rgba(255, 255, 255, 0.856);
+        border-radius: 5px;
+    }
+
+    nav a:hover {
+        color: #F2DA45;
+        text-decoration: underline;
+        background-color: #151515;
+    }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+    header {
+        display: flex;
+        align-items: end;
+        justify-content: center;
+        height: 90px;
+        padding: 10px;
+        font-size: 1.2em;
+
+    }
+
+    h1 {
+       padding-right: 10px;
+    }
+
+    #icone {
+        display: none;
+    }
+
+    nav  {
+       padding-left: 120px;
+    
+    }
+
+    #boas-vindas {
+        background-image: url(../imagens/burguer-animation-.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: right;
+        height: 290px;
+    }
+
+    #boas-vindas p {
+        text-align: left;
+        font-weight: 600;
+        font-size: 35px;
+        padding: 70px;
+        width: 650px;
+    }
+
+    footer {
+        font-size: 22px;
+    }
+
+}
+
+
+@media screen and (min-width: 1200px) {
+    header {
+        align-items: end;
+        display: flex;
+        justify-content: center;
+        height: 90px;
+        padding: 10px;
+        font-size: 1.2em;
+    }
+
+    header > h1 {
+       padding-right: 520px;
+    }
+
+    #icone {
+        display: none;
+    }
+
+    #boas-vindas {
+        background-image: url(../imagens/burguer-animation-.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: right;
+        height: 290px;
+    }
+
+    #boas-vindas p {
+        text-align: left;
+        font-weight: 600;
+        font-size: 35px;
+        padding: 70px;
+        width: 700px;
+    }
+
+    #cardapio {
+        background-image: url(../imagens/Logo.png);
+        background-repeat: no-repeat;
+        background-position: right center;
+        margin-bottom: 30px;
+    }
+
+    #contatos {
+        font-size: 1.7em;
+    }
+
+    footer {
+        font-size: 22px;
+    }
+
+}
