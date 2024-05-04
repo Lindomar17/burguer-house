@@ -69,6 +69,27 @@ h2 {
     margin-bottom: 10px;
 }
 
+#hamburguers img {
+    width: 275px;
+    height: 150px;
+}
+
+#hamburguers > ul {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    list-style: none;
+    gap: 10px;
+
+    padding: 10px;
+}
+
+#hamburguers li {
+    background-color: rgb(194, 184, 184);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
 
 #cardapio {
     background-color: #151515;
