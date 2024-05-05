@@ -69,6 +69,7 @@ h2 {
     margin-bottom: 10px;
 }
 
+
 #hamburguers img {
     width: 275px;
     height: 150px;
@@ -77,9 +78,11 @@ h2 {
 #hamburguers > ul {
     display: flex;
     text-align: center;
-    justify-content: center;
     list-style: none;
     gap: 10px;
+
+    overflow-x: scroll;
+    width: 380px;
 
     padding: 10px;
 }
@@ -87,7 +90,6 @@ h2 {
 #hamburguers li {
     background-color: rgb(194, 184, 184);
     border-radius: 10px;
-    overflow: hidden;
 }
 
 

@@ -17,6 +17,25 @@
     }
 }
 
+@media screen and (min-width: 500px) and (max-width: 768px) {
+    #hamburguers ul {
+        display: flex;
+        text-align: center;
+        justify-content: space-around;
+        list-style: none;
+        gap: 10px;
+        width: auto;
+
+        padding: 10px;
+
+    }
+
+    #hamburguers li {
+        overflow: hidden;
+    }
+    
+}
+
 
 @media screen and (min-width: 768px) and (max-width: 1200px) {
     header {
@@ -58,6 +77,22 @@
         width: 650px;
     }
 
+    #hamburguers ul {
+        display: flex;
+        text-align: center;
+        justify-content: space-around;
+        list-style: none;
+        gap: 10px;
+        width: auto;
+
+        padding: 10px;
+
+    }
+
+    #hamburguers li {
+        overflow: hidden;
+    }
+
     footer {
         font-size: 22px;
     }
@@ -97,6 +132,22 @@
         font-size: 35px;
         padding: 70px;
         width: 700px;
+    }
+
+    #hamburguers ul {
+        display: flex;
+        text-align: center;
+        justify-content: space-around;
+        list-style: none;
+        gap: 10px;
+        width: auto;
+
+        padding: 10px;
+
+    }
+
+    #hamburguers li {
+        overflow: hidden;
     }
 
     #cardapio {
