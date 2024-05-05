@@ -77,6 +77,11 @@
         width: 650px;
     }
 
+    #hamburguers img {
+        width: 205px;
+        height: 130px;
+    }
+
     #hamburguers ul {
         display: flex;
         text-align: center;
@@ -132,6 +137,11 @@
         font-size: 35px;
         padding: 70px;
         width: 700px;
+    }
+
+    #hamburguers img {
+        width: 235px;
+        height: 130px;
     }
 
     #hamburguers ul {

@@ -71,8 +71,8 @@ h2 {
 
 
 #hamburguers img {
-    width: 275px;
-    height: 150px;
+    width: 120px;
+    height: 110px;
 }
 
 #hamburguers > ul {
@@ -82,7 +82,7 @@ h2 {
     gap: 10px;
 
     overflow-x: scroll;
-    width: 380px;
+    width: 100%;
 
     padding: 10px;
 }
